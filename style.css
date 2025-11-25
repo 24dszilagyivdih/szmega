@@ -578,13 +578,14 @@ footer {
 
     /* Mobile nav overlay styles */
     nav {
-        position: absolute;
+        /* fixed so it overlays content and is not hidden behind the sticky header */
+        position: fixed;
         left: 0;
         right: 0;
-        top: 100%;
+        top: 60px; /* sit just under the header */
         background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
         padding: 1rem 20px;
-        z-index: 999;
+        z-index: 1002;
     }
 
     nav ul {
@@ -607,6 +608,13 @@ footer {
 
     .hero h1 {
         font-size: 2.5rem;
+    }
+
+    /* Remove large minimum hero height on mobile to avoid huge empty space */
+    .hero {
+        min-height: auto;
+        padding: 3rem 20px;
+        align-items: flex-start;
     }
 
     .hero p {
