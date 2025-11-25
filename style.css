@@ -140,7 +140,7 @@ nav a:hover {
     color: var(--dark);
 }
 
-.btn-primary:hover {
+.btn-primary:hover{
     background-color: #FFA000;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
