@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szmega Alapítvány - Közösségi Segítség</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🤝</text></svg>">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <span class="logo-icon">🤝</span>
+                <span>Szmega Alapítvány</span>
+            </div>
+            <button class="menu-toggle">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Főoldal</a></li>
+                    <li><a href="#about">Rólunk</a></li>
+                    <li><a href="#services">Szolgáltatások</a></li>
+                    <li><a href="#team">Csapatunk</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Szmega Alapítvány</h1>
+            <p>Közösen építjük a jobb jövőt - segítség, remény és közösség</p>
+            <div class="hero-buttons">
+                <a href="donations.html" class="btn btn-primary">
+                    Támogass minket
+                </a>
+                <button class="btn btn-secondary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+                    Tudj meg többet
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="section-title">Rólunk</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Kik vagyunk?</h2>
+                <p>
+                    A Szmega Alapítvány egy önkéntes szervezet, amely 2015 óta dolgozik a rászoruló 
+                    emberek segítésén. Célunk az, hogy támogatást nyújtsunk azoknak, akik szükségben vannak.
+                </p>
+                <p>
+                    Munkánk középpontjában a közösség áll. Hiszünk abban, hogy az összetartás és az 
+                    egymásra figyelés által egy erősebb, szolidárisabb társadalmat építhetünk.
+                </p>
+                <p>
+                    Programjaink között vannak szociális támogatási csoportok, étel- és ruhaadományok, 
+                    pénzügyi tanácsadás, valamint a FIRMA: mentális egészséggel kapcsolatos segítségnyújtás.
+                </p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="2847">2487+</div>
+                        <div class="stat-label">Segített emberek</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="156">156+</div>
+                        <div class="stat-label">Aktív önkéntesek</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="9">9+</div>
+                        <div class="stat-label">Év szolgálat</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="kep1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2 class="section-title">Szolgáltatások</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🍆</div>
+                <h3>Élelmiszersegély</h3>
+                <p>
+                    Ingyenes élelmiszercsomag juttatása rászoruló családoknak. 
+                    Friss termékek és alapvető szükségletek minden héten.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👕</div>
+                <h3>Ruhaadomány</h3>
+                <p>
+                    Minőségi ruha- és cipőadományok az év körül. 
+                    Szakértő tanácsadás a ruházattal kapcsolatban.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Munkahelykeresés</h3>
+                <p>
+                    Szakmai támogatás az álláskeresésben és 
+                    képzésben. Cv-írás és interjútanácsadás.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3>Lakhatási Segítség</h3>
+                <p>
+                    Tanácsadás lakhatási problémákkal kapcsolatban 
+                    és segítség a megfelelő szállás megtalálásában.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🧠</div>
+                <h3>FIRMA Program</h3>
+                <p>
+                    6 hetes mentálhigiénés program a lelki egészségért
+                    és támogatás képzett szakemberektől.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📚</div>
+                <h3>Oktatási Programok</h3>
+                <p>
+                    Ingyenes képzések és oktatási programok 
+                    a jobb jövőért. Készségfejlesztő kurzusok.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <h2 class="section-title">Csapatunk</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-image">👩‍💼</div>
+                <div class="member-info">
+                    <div class="member-name">Dr. Szabó Anna</div>
+                    <div class="member-role">Alapító & Igazgató</div>
+                    <div class="member-bio">
+                        20 éves tapasztalat a szociális munkában. 
+                        Elkötelezett az emberek segítésére.
+                    </div>
+                </div>
+            </div>
+                        <div class="team-member">
+                <div class="member-image">👩‍💼</div>
+                <div class="member-info">
+                    <div class="member-name"><a href="volunteer.html">Jelentkezz te is!</a></div>
+                    <div class="member-role">Légy önkéntes, és segíts az alapítványnak</div>
+                    <div class="member-bio">
+                        Légy te is a csapatunk része! Csatlakozz önkéntes programjainkhoz,
+                        és tegyél a közösségért!
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👨‍💼</div>
+                <div class="member-info">
+                    <div class="member-name">Kiss István</div>
+                    <div class="member-role">Pénzügyi Igazgató</div>
+                    <div class="member-bio">
+                        Gondoskodik az alapítvány finanszírozásáról 
+                        és átlátható működéséről.
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👩‍⚕️</div>
+                <div class="member-info">
+                    <div class="member-name">Kovács Márta</div>
+                    <div class="member-role">Szociális Munkatárs</div>
+                    <div class="member-bio">
+                        Aktívan dolgozik az ügyfélekkel és segít 
+                        a szociális ügyek megoldásában.
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👨‍🏫</div>
+                <div class="member-info">
+                    <div class="member-name">Nagy Péter</div>
+                    <div class="member-role">Oktatási Koordinátor</div>
+                    <div class="member-bio">
+                        Szervezi az oktatási programokat és képzéseket 
+                        az oktatás-alapú segítségnyújtáshoz.
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👩‍⚖️</div>
+                <div class="member-info">
+                    <div class="member-name">Tóth Júlia</div>
+                    <div class="member-role">Jogi Tanácsadó</div>
+                    <div class="member-bio">
+                        Szabad jogi tanácsadás és segítségnyújtás 
+                        az ügyfeleink számára.
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👨‍💻</div>
+                <div class="member-info">
+                    <div class="member-name">Horváth Tamás</div>
+                    <div class="member-role">Önkéntesek Koordinátora</div>
+                    <div class="member-bio">
+                        Szervezi az önkénteseket és biztosítja 
+                        a hatékony munkaszervezést.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="section-title">Kapcsolat</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Keress minket!</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">☎️</div>
+                    <div class="contact-details">
+                        <strong>Telefon:</strong>
+                        <p>+36 1 234 5678</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <strong>Email:</strong>
+                        <p>info@Szmega.hu</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <strong>Cím:</strong>
+                        <p>1234 Budapest, Fő utca 42.</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">⏰</div>
+                    <div class="contact-details">
+                        <strong>Nyitvatartás:</strong>
+                        <p>H-P: 9:00-17:00<br>Szombat: 10:00-14:00</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">🧾</div>
+                    <div class="contact-details">
+                        <strong>Adószám:</strong>
+                        <p>18234567-2-01</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem;">Kövess minket:</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                    <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">📷</a>
+                    <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube">▶️</a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon" title="Twitter">𝕏</a>
+                </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Név *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Tárgy *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Üzenet *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Üzenet küldése</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2025. Szmega Alapítvány.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
